@@ -1,0 +1,10 @@
+{
+  "name": "@dimplesyj/next-demo",
+  "version": "0.0.0",
+  "description": "DimplesY's Next.js learn examples",
+  "scripts": {
+    "dev:01": "pnpm -F @dimplesyj/01_hello_next dev"
+  },
+  "keywords": [],
+  "author": ""
+}
