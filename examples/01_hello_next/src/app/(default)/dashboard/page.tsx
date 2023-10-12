@@ -11,6 +11,11 @@ export const metadata: Metadata = {
   description: '',
 }
 
+export async function generateStaticParams() {
+  console.log("静态打包时候会调用这个函数")
+  return {}
+}
+
 export default async function Dashboard() {
   const user = await fetch('http://localhost:3000/user/api/1').then((res) => res.json())
 

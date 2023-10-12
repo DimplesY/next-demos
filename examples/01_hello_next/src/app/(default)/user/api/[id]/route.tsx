@@ -5,9 +5,6 @@ export async function GET(request: NextRequest, context: { params: {id:string} }
 }
 
 
-export async function POST(request:NextRequest) {
-  return NextResponse.json({code:200, msg:'post ok'})
-}
 
 export async function PUT(request:NextRequest) {
   return NextResponse.json({code:200, msg:'put ok'})
