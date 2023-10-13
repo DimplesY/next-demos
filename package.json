@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "description": "DimplesY's Next.js learn examples",
   "scripts": {
-    "dev:01": "pnpm -F @dimplesyj/01_hello_next dev"
+    "dev:01": "pnpm -F @dimplesyj/01_hello_next dev",
+    "dev:02": "pnpm -F @dimplesyj/t3-demo dev"
   },
   "keywords": [],
   "author": ""
