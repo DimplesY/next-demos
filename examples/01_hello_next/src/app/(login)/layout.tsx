@@ -3,11 +3,6 @@ import { Inter } from 'next/font/google'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata: Metadata = {
-  title: '登录页',
-  description: '',
-}
-
 
 export default async function LoginRootLayout({ children }: { children: React.ReactNode }) {
   return (
