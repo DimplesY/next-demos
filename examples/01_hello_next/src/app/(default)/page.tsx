@@ -1,6 +1,7 @@
 import '@/app/globals.css'
 import Link from 'next/link'
 
+
 const tabsList = ['首页', '番剧', '直播', '游戏中心', '会员购']
 
 export default async function Index() {

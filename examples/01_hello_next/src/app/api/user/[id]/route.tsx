@@ -17,7 +17,10 @@ export async function GET(request: NextRequest, context: { params: { id: string 
   if (!user) {
     return NextResponse.json({ code: 404, msg: 'user not found' })
   }
-  return NextResponse.json({ code: 200, msg: 'success', data: user })
+  return NextResponse.json(
+    { code: 200, msg: 'success', data: user },
+    { headers: { 'Set-Cookie': 'key=value; Domain=localhost; Path=/; HttpOnly; SameSite=lax; Secure;' } }
+  )
 }
 
 export async function PUT(request: NextRequest) {
